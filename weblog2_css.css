@@ -1,0 +1,33 @@
+html{
+  scroll-snap-type: mandatory;
+}
+body {
+  direction: rtl;
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #f8f9fa;
+}
+header {
+  background: linear-gradient(90deg, #28a745, #a2d5ab);
+}
+.navbar a {
+  color: white;
+  margin-left: 15px;
+}
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.blog-slider-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 15px;
+}
+.blog-slider-card h5 {
+  color: #28a745;
+}
+footer {
+  background: #e9ecef;
+}
